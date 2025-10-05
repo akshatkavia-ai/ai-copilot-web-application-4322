@@ -1,7 +1,7 @@
 import json
 import os
 
-from src.api.main import app
+from src.api.main import app  # keeps same import path, app sourced from app.main via wrapper
 
 # Get the OpenAPI schema
 openapi_schema = app.openapi()
